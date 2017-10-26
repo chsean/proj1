@@ -17,7 +17,9 @@ trainer_path
 It needed params[:id]
 
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
+views/layouts/application.html.erb renders messages that come up from our app, so I guess that's where flash is being read.
 
 # Give us feedback on the project and decal below!
+doing great
 
 # Extra credit: Link your Heroku deployed app
